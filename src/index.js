@@ -3,7 +3,8 @@ import { getRandomWord } from "./lib";
 
 function init() {
   const randomWord = getRandomWord();
-  console.log(randomWord);
+
+  wordP.textContent = randomWord;
 }
 
 startBtn.addEventListener("click", () => {
